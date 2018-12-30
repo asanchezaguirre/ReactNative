@@ -64,7 +64,5 @@ const styles = StyleSheet.create({
   },
   image: {
     marginTop: 30,
-    borderTopColor: 'red',
-    borderTopWidth: 30,
   },
 });
