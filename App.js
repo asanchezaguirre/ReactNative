@@ -8,7 +8,8 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, Image, View} from 'react-native';
-import PizzaTranslate from "./PizzaTranslate"
+import PizzaTranslate from "./PizzaTranslate";
+import Touches from "./Touches";
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -23,6 +24,7 @@ export default class App extends Component<Props> {
     
     return (
       <View style={styles.container}>
+        <Touches />
         <Text style={styles.welcome}>Hello World!</Text>
         <Imagen  url='http://thesocialsciencepost.com/wp-content/uploads/2016/05/2108594-600x300.jpg'/>
         <Imagen  url='https://http2.mlstatic.com/disfraz-infantil-super-mario-bros-luigi-peach-cgorra-bigote-D_NQ_NP_823236-MLA26198814006_102017-F.jpg'/>
